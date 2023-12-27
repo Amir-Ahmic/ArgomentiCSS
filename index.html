@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <h1>Argomenti CSS</h1>
+
+    <!-- Tabella per CSS Selectors and Specificity -->
+    <div class="table-container">
+        <h2>CSS Selectors and Specificity</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Selettore</th>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Element Selector</td>
+                    <td>Seleziona tutti gli elementi di un tipo specifico.</td>
+                    <td><code>p</code> seleziona tutti gli elementi &lt;p&gt;.</td>
+                </tr>
+                <tr>
+                    <td>Class Selector</td>
+                    <td>Seleziona elementi che hanno una specifica classe.</td>
+                    <td><code>.btn</code> seleziona tutti gli elementi con la classe "btn".</td>
+                </tr>
+                <tr>
+                    <td>ID Selector</td>
+                    <td>Seleziona un elemento per il suo ID univoco.</td>
+                    <td><code>#header</code> seleziona l'elemento con l'ID "header".</td>
+                </tr>
+                <tr>
+                    <td>Descendant Selector</td>
+                    <td>Seleziona un elemento discendente di un altro elemento.</td>
+                    <td><code>ul li</code> seleziona tutti gli elementi &lt;li&gt; che sono discendenti di un elemento
+                        &lt;ul&gt;.</td>
+                </tr>
+                <tr>
+                    <td>Pseudo-class Selector</td>
+                    <td>Seleziona elementi in uno stato specifico.</td>
+                    <td><code>a:hover</code> seleziona tutti i link &lt;a&gt; quando sono sottolineati con il mouse.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Tabella per Common CSS Properties -->
+    <div class="table-container">
+        <h2>Common CSS Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Proprietà</th>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>color</td>
+                    <td>Imposta il colore del testo.</td>
+                    <td><code>color: #333;</code> imposta il colore del testo su grigio scuro.</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>Imposta la dimensione del carattere del testo.</td>
+                    <td><code>font-size: 16px;</code> imposta la dimensione del carattere a 16 pixel.</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Imposta il colore di sfondo di un elemento.</td>
+                    <td><code>background-color: #f0f0f0;</code> imposta il colore di sfondo su grigio chiaro.</td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>Imposta il margine esterno di un elemento.</td>
+                    <td><code>margin: 10px;</code> imposta un margine di 10 pixel su tutti i lati.</td>
+                </tr>
+                <tr>
+                    <td>padding</td>
+                    <td>Imposta il padding interno di un elemento.</td>
+                    <td><code>padding: 20px;</code> imposta un padding di 20 pixel su tutti i lati.</td>
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>Controlla il tipo di visualizzazione dell'elemento.</td>
+                    <td><code>display: block;</code> imposta l'elemento come un blocco.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h2>CSS Box Model</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Box Model</td>
+                    <td>Il modello di scatola CSS definisce come gli elementi HTML vengono rappresentati e occupano
+                        spazio nella pagina, comprendendo margini, padding, border e contenuto.</td>
+                    <td><code>.box { margin: 10px; padding: 20px; border: 2px solid #000; }</code></td>
+                </tr>
+                <tr>
+                    <td>Utilizzo di Margin</td>
+                    <td>Margin controlla lo spazio esterno dell'elemento. Puoi utilizzarlo per creare spazi tra gli
+                        elementi.</td>
+                    <td><code>.box { margin: 10px; }</code></td>
+                </tr>
+                <tr>
+                    <td>Utilizzo di Padding</td>
+                    <td>Padding controlla lo spazio interno dell'elemento. Puoi utilizzarlo per creare spazi tra il
+                        contenuto e il bordo dell'elemento.</td>
+                    <td><code>.box { padding: 20px; }</code></td>
+                </tr>
+                <tr>
+                    <td>Utilizzo di Border</td>
+                    <td>Border definisce il bordo dell'elemento. Puoi specificare lo stile, il colore e lo spessore del
+                        bordo.</td>
+                    <td><code>.box { border: 2px solid #000; }</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h2>CSS Positioning</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Positioning</td>
+                    <td>Il posizionamento in CSS determina come un elemento viene disposto nella pagina rispetto agli
+                        altri elementi, con valori come static, relative, absolute e fixed.</td>
+                    <td><code>.element { position: relative; top: 20px; left: 30px; }</code></td>
+                </tr>
+                <tr>
+                    <td>Position: Relative</td>
+                    <td><code>position: relative;</code> posiziona l'elemento in base alla sua posizione originale,
+                        consentendo di spostarlo rispetto alla sua posizione normale.</td>
+                    <td><code>.element { position: relative; top: 20px; left: 30px; }</code></td>
+                </tr>
+                <tr>
+                    <td>Position: Absolute</td>
+                    <td>
+                        <code>position: absolute;</code> è una proprietà CSS che consente di posizionare un elemento
+                        HTML in modo specifico all'interno del suo primo elemento genitore che ha una posizione diversa
+                        da `static` (che è il valore predefinito per la posizione).
+
+                        <p>**Spiegazione dettagliata**:</p>
+                        <ul>
+                            <li>Quando applichi `position: absolute;` a un elemento, lo stai rendendo un elemento
+                                posizionato. Gli elementi posizionati sono rimossi dal flusso normale del documento, il
+                                che significa che non occupano spazio nel layout e non influenzano la posizione degli
+                                altri elementi.</li>
+                            <li>L'elemento posizionato (`position: absolute;`) verrà posizionato rispetto al suo primo
+                                elemento genitore con una posizione posizionata. Questo significa che l'elemento cerca
+                                il primo genitore che abbia una posizione diversa da `static` (cioè `relative`,
+                                `absolute`, o `fixed`) e si baserà sulla posizione di questo genitore per posizionarsi.
+                            </li>
+                            <li>Nel tuo esempio, hai un elemento genitore con una classe `parent` che ha `position:
+                                relative;`. Questo rende `parent` il "contenitore" per l'elemento posizionato.</li>
+                            <li>All'interno di `parent`, c'è un elemento con una classe `child` che ha `position:
+                                absolute;`. Questo significa che `child` verrà posizionato rispetto a `parent`.</li>
+                            <li>`top: 0;` e `left: 0;` specificano che `child` sarà posizionato all'interno di `parent`
+                                con un offset di 0 pixel dal bordo superiore (`top`) e 0 pixel dal bordo sinistro
+                                (`left`) di `parent`. Quindi, `child` sarà posizionato nell'angolo in alto a sinistra di
+                                `parent`.</li>
+                            <li>Poiché `child` è posizionato in questo modo, può sovrapporsi ad altri contenuti
+                                all'interno di `parent` senza spostarli o influenzarli. Questa è una delle principali
+                                utilità di `position: absolute;`, poiché consente di creare layout sovrapposti o di
+                                posizionare elementi in posizioni specifiche all'interno dei loro contenitori.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <div class="parent" style="position: relative;">
+                            <div class="child" style="position: absolute; top: 0; left: 0;">Elemento assoluto</div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Z-Index</td>
+                    <td><code>z-index</code> definisce l'ordine di sovrapposizione degli elementi quando si utilizza il
+                        posizionamento. Gli elementi con un valore di <code>z-index</code> più alto saranno disposti
+                        sopra quelli con un valore più basso.</td>
+                    <td><code>.element { position: absolute; z-index: 2; }</code></td>
+                </tr>
+                <tr>
+                    <td>Position: Fixed</td>
+                    <td><code>position: fixed;</code> posiziona l'elemento rispetto alla finestra del browser, in modo
+                        che rimanga fisso anche quando si scorre la pagina. È utile per creare elementi di navigazione o
+                        annunci fissi.</td>
+                    <td><code>.element { position: fixed; top: 0; left: 0; }</code></td>
+                </tr>
+                <tr>
+                    <td>Position: Sticky</td>
+                    <td><code>position: sticky;</code> combina le caratteristiche di <code>relative</code> e
+                        <code>fixed</code>. L'elemento è posizionato inizialmente come se fosse <code>relative</code>,
+                        ma diventa <code>fixed</code> quando si raggiunge una posizione di ancoraggio specificata.
+                    </td>
+                    <td><code>.element { position: sticky; top: 20px; }</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </tbody>
+    </table>
+    </div>
+
+    <div class="table-container">
+        <h2>CSS Flexbox</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flexbox</td>
+                    <td>Flexbox è un sistema di layout che semplifica la disposizione flessibile degli elementi
+                        all'interno di un contenitore, gestendo dimensioni e allineamento in modo intuitivo.</td>
+                    <td><code>.container { display: flex; flex-direction: row; justify-content: space-between; align-items: center; }</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Display: Flex</td>
+                    <td><code>display: flex;</code> abilita Flexbox su un contenitore, trasformando i suoi figli in
+                        elementi flessibili.</td>
+                    <td><code>.container { display: flex; }</code></td>
+                </tr>
+                <tr>
+                    <td>Flex-Direction</td>
+                    <td><code>flex-direction</code> specifica la direzione principale dei flessibili all'interno del
+                        contenitore, come righe o colonne.</td>
+                    <td><code>.container { flex-direction: row; }</code></td>
+                </tr>
+                <tr>
+                    <td>Justify-Content</td>
+                    <td><code>justify-content</code> allinea gli elementi lungo la direzione principale, ad esempio
+                        orizzontalmente se <code>flex-direction</code> è impostato su "row".</td>
+                    <td><code>.container { justify-content: space-between; }</code></td>
+                </tr>
+                <tr>
+                    <td>Align-Items</td>
+                    <td><code>align-items</code> allinea gli elementi lungo la direzione trasversale, ad esempio
+                        verticalmente se <code>flex-direction</code> è impostato su "row".</td>
+                    <td><code>.container { align-items: center; }</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h2>CSS Grid</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CSS Grid</td>
+                    <td>CSS Grid è un sistema di layout bidimensionale che permette di creare layout complessi con righe
+                        e colonne. È utile per la creazione di griglie di layout responsive.</td>
+                    <td><code>.grid-container { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 100px 200px; }</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Display: Grid</td>
+                    <td><code>display: grid;</code> abilita il sistema di layout a griglia su un contenitore.</td>
+                    <td><code>.grid-container { display: grid; }</code></td>
+                </tr>
+                <tr>
+                    <td>Grid-Template-Columns</td>
+                    <td><code>grid-template-columns</code> definisce il numero e la larghezza delle colonne nella
+                        griglia.</td>
+                    <td><code>.grid-container { grid-template-columns: 1fr 1fr 1fr; }</code></td>
+                </tr>
+                <tr>
+                    <td>Grid-Template-Rows</td>
+                    <td><code>grid-template-rows</code> definisce il numero e l'altezza delle righe nella griglia.</td>
+                    <td><code>.grid-container { grid-template-rows: 100px 200px; }</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="table-container">
+        <h2>CSS Transitions and Animations</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Transitions and Animations</td>
+                    <td>Le transizioni e le animazioni in CSS consentono di aggiungere movimento ed effetti di
+                        transizione agli elementi della pagina.</td>
+                    <td><code>.button { transition: background-color 0.3s ease; } .button:hover { background-color: #FF5733; }</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Transition</td>
+                    <td><code>transition</code> definisce le proprietà da animare, la durata dell'animazione e la
+                        funzione di temporizzazione.</td>
+                    <td><code>.button { transition: background-color 0.3s ease; }</code></td>
+                </tr>
+                <tr>
+                    <td>Animation</td>
+                    <td><code>animation</code> consente di definire animazioni più complesse specificando keyframes e
+                        opzioni come la durata e la ripetizione.</td>
+                    <td><code>.element { animation: myanimation 2s infinite; } @keyframes myanimation { 0% { transform: scale(1); } 50% { transform: scale(1.2); } 100% { transform: scale(1); } }</code>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="table-container">
+        <h2>CSS Media Queries</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrizione</th>
+                    <th>Esempio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Media Query</td>
+                    <td>Le media query consentono di applicare regole CSS specifiche in base alle dimensioni dello
+                        schermo o ad altri attributi del dispositivo, rendendo possibile la creazione di layout
+                        responsive.</td>
+                    <td><code>@media screen and (max-width: 768px) { /* Regole CSS per schermi più piccoli */ }</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>@media</td>
+                    <td>L'at-rule <code>@media</code> viene utilizzato per definire una media query. Puoi specificare le
+                        condizioni all'interno delle parentesi <code>( )</code>.</td>
+                    <td><code>@media (min-width: 1024px) and (orientation: landscape) { /* Regole CSS per schermi larghi in modalità paesaggio */ }</code>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Altri attributi</td>
+                    <td>È possibile utilizzare altre condizioni nelle media query, come <code>min-width</code>,
+                        <code>orientation</code>, <code>device-pixel-ratio</code>, e altro, per adattare il layout in
+                        base alle esigenze.</td>
+                    <td><code>@media (orientation: portrait) { /* Regole CSS per schermi in modalità ritratto */ }</code>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+    <script> /* js code */</script>
+
+</body>
+
+</html>

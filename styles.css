@@ -1,0 +1,64 @@
+/* Stile base per la pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Stile per il contenitore della tabella */
+.table-container {
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Stile per la tabella */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Stile per le intestazioni di colonna */
+th {
+    background-color: lightgray;
+    color: gray;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+/* Stile per le celle */
+td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+/* Stile per le righe alternate */
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+/* Stile per gli esempi di codice */
+code {
+    background-color: lightgray;
+    padding: 2px 4px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-family: Consolas, monospace;
+    color: gray;
+}
